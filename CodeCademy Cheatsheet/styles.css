@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: gainsboro;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+header {
+    background-color: darkgray;
+    text-align: center;
+    padding: 1em;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+article p {
+    display: block;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    padding: 2em;
+}
+
+.tbackground {
+    background-color: darkgray;
+    padding: 1.7em;    
+}
+
+table {
+    border-collapse: collapse;
+    background-color: oldlace;
+    margin: auto;
+}
+
+table * {
+    border: 1px solid black;
+    padding: .2em;
+    text-align: center;
+}
+
+th {
+    padding: .3em;
+    background-color: navajowhite;
+    font-size: 1.2em;
+}
+
+.code {
+    font-family: 'Roboto Mono', monospace;
+    color: green;
+}
+
+footer {
+    margin-top: 2em;
+    font-size: 1em;
+    font-style: italic;
+}
