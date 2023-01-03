@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to bottom right, #eaeaea, hsl(217, 11%, 67%));
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1.mainTitle {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+section {
+    border: 2px solid #d4e3f9;
+    border-radius: 15px;
+    width: 80vw;
+    margin: 20px auto;
+    background-color: #f2f2f2;
+}
+
+section h2.header {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+section .description {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.color {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.color p {
+    text-align: center;
+    line-height: 1.5;
+    
+}
+
+footer p {
+    font-size: 12px;
+    font-style: italic;
+    padding: 15px;
+    text-align: center;
+}
+
+/*------- Colors -------*/
+
+.colorName {
+    margin-top: 35px;
+}
+
+.retroViolet {
+    background-color: #7514ba;
+}
+
+.acidGreen {
+    background-color: #d3f724;
+}
+
+.neonPink {
+    background-color: #e61c69;
+}
+
+.cyan {
+    background-color: #23e8aa;
+}
+
+.almostWhite {
+    background-color: #e0e0e0;
+}
+
+.lightGrey {
+    background-color: #c4c4c4;
+}
+
+.grey {
+    background-color: #858585;
+}
+
+.anthracite {
+    background-color: #383838;
+}
+
+/*------- Fonts -------*/
+
+.fonts h3.description {
+    margin-top: 25px;
+}
+
+.fontBlock {
+    width: 300px;
+}
+
+.fontBlock p {
+    line-height: 2;
+}
+
+h3.fontName {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.kanit {
+    font-family: 'Kanit', sans-serif;
+}
+
+.merriweather {
+    font-family: 'Merriweather', serif;
+}
+
+.crimsonText {
+    font-family: 'Crimson Text', serif;
+}
+
+.cinzel {
+    font-family: 'Cinzel', serif;
+}
+
+.robotoMono {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.jetBrains {
+    font-family: 'JetBrains Mono', monospace;
+}
