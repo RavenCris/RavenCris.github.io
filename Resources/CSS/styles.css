@@ -1,0 +1,177 @@
+/* Global styling  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #000;
+    font-family: 'Helvetica', 'Roboto', sans-serif;
+    font-size: 2.2rem;
+    color: seashell;
+    text-align: center;
+    opacity: 0.9;
+}
+
+a {
+    color: seashell;
+}
+
+h2, h4 {
+    flex-basis: 100%;
+}
+
+section {
+    margin: 69px auto 0;
+}
+/* Navigation */
+
+nav {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    align-items: center;
+    top: 0;
+    
+}
+
+nav a:hover {
+    color: #ffe1cc;
+}
+nav a:active {
+    color: #9b7e69;
+}
+
+nav ul li {
+    display: inline;
+    text-decoration: none;
+    margin-left: 1.5em;
+}
+nav ul {
+    margin-right: 10px;
+}
+
+nav #logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+/* Header Section */
+
+section.banner {
+    height: 700px;
+    width: 1200px;
+    background-image: url("../img-mission-background.jpg");
+    position: relative;
+
+}
+
+header {
+    background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+/* Featured Tea Section */
+
+#featured {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+figcaption {
+    margin-top: 10px;
+}
+
+figure a img {
+    height: 200px;
+    width: 300px;
+    transition: transform 0.2s ease-in-out;
+}
+
+figure a {
+    overflow: hidden;
+    display: block;
+    height: 200px;
+    width: 300px;
+}
+
+figure a:hover img {
+    transform: scale(1.15); 
+}
+
+/* Locations Section */
+
+#location {
+    background-image: url(../img-locations-background.webp);
+    height: 500px;
+    background-repeat: no-repeat;
+    width: 1200px;
+    background-size: 1200px 600px;
+    border: 1px solid transparent;
+}
+
+.wrapper {
+    display: flex;
+    width: 980px;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#location h2 {
+    margin-top: 60px;
+    margin-bottom: 15px;
+}
+
+.card {
+    width: 300px;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+p, h3 {
+    line-height: 3;
+}
+
+/*  Footer  */
+
+#copyright {
+    text-align: left;
+    margin-left: 20px; 
+}
+
+.contact {
+    height: 200px;
+    line-height: 3;
+}
+
+.contact h2 {
+    margin-top: -2.2rem;
+}
